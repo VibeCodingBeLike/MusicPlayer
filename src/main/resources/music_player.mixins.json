@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "kat.blasted.music_player.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "MusicFrequencyMixin",
+    "MusicManagerMixin",
+    "MusicManagerAccessor",
+    "PauseScreenMixin",
+    "TitleScreenMixin",
+    "MinecraftMixin",
+    "ClientLevelAccessor",
+    "LevelEventHandlerAccessor",
+    "LevelEventHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

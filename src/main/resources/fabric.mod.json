@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "music_player",
+  "version": "${version}",
+  "name": "Music Player",
+  "description": "Pause menu music player with a Never music frequency option.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "kat.blasted.music_player.MusicPlayerMod"
+    ]
+  },
+  "mixins": [
+    "music_player.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
